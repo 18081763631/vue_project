@@ -1,0 +1,36 @@
+
+.nog {
+
+  height: 400rpx;
+  width:100%;
+}
+.noh {
+  position: absolute;
+  height: 32rpx;
+  width: 32rpx;
+}
+.noi {
+  position: absolute;
+  width: 130rpx;
+  height: 30rpx;
+  font-size: 23rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30rpx;
+  text-align: center;
+}
+.tip{
+  margin-top: 100rpx;
+  text-align: center;
+  color: #999;
+}
+.l{
+  margin-bottom: 15rpx;
+}
+.end {
+text-align: center;
+color: #b0b0b0;
+font-size: 12px;
+}
+

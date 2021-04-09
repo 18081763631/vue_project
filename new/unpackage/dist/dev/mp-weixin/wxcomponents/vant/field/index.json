@@ -1,0 +1,11 @@
+{
+  "componentGenerics": {
+    "scoped-slots-left-icon": true,
+    "scoped-slots-label": true
+  },
+  "component": true,
+  "usingComponents": {
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-icon": "/wxcomponents/vant/icon/index"
+  }
+}

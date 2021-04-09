@@ -1,0 +1,10 @@
+{
+  "componentGenerics": {
+    "scoped-slots-left-icon": true,
+    "scoped-slots-right-icon": true
+  },
+  "component": true,
+  "usingComponents": {
+    "van-field": "/wxcomponents/vant/field/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "font": "/pages/shopping/font_stype/font_stype",
+    "bar": "/pages/shopping/ui-bar/index"
+  }
+}

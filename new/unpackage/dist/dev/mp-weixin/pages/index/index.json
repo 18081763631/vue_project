@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "vansearch": "/wxcomponents/vant/search/index",
+    "vansidebar": "/wxcomponents/vant/sidebar/index",
+    "vansidebar-item": "/wxcomponents/vant/sidebar-item/index"
+  }
+}

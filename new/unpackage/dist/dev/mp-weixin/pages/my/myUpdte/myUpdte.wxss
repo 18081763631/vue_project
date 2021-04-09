@@ -1,0 +1,46 @@
+
+.division{
+  height:60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.bar{
+  height: 60rpx;
+  width: 5rpx;
+  background-color: orange;
+  margin-left:80rpx ;
+  border-radius: 30rpx;
+}
+.barText{
+ margin-left: 60rpx;
+}
+
+/* 内容 */
+.update{
+  /* background: #f80; */
+  margin: 50rpx;
+}
+.border{
+  border-width: 4rpx 4rpx 4rpx 4rpx;  
+  border-color: rgba(180, 175, 175, 0.911);  
+  border-style: solid;
+}
+.data-content{
+  font-size: 28rpx;
+  margin-left: 30rpx;
+  line-height: 40rpx;
+  letter-spacing: 2rpx;
+  color:#333;
+  margin-bottom: 20px;
+}
+.article-content{
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+  margin-left: 50rpx;
+  line-height: 40rpx;
+  letter-spacing: 2rpx;
+}
+
+

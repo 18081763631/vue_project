@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/scenic/scenic",
+    "pages/index/scenicList/scenicList",
+    "pages/index/searchList/searchList",
+    "pages/my/myCollection/myCollection",
+    "pages/my/myfeedback/myfeedback",
+    "pages/my/myFootprint/myFootprint",
+    "pages/my/myUpdte/myUpdte",
+    "pages/shopping/shopping",
+    "pages/shopping/font_stype/font_stype",
+    "pages/shopping/ui-bar/index",
+    "pages/shopping/web/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

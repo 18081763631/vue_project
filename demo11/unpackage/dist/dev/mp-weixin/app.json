@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index",
+    "pages/function/AnnouncementNotice",
+    "pages/function/ApplicationRequest",
+    "pages/function/ItemPurchase",
+    "pages/function/MaintenanceRequest",
+    "pages/function/WorkOvertime"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/business2.png",
+        "selectedIconPath": "static/business1.png",
+        "text": "业务"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/personal2.png",
+        "selectedIconPath": "static/personal1.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap43.json"
+}

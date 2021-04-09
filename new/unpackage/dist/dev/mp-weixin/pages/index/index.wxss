@@ -1,0 +1,642 @@
+.van-ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.van-multi-ellipsis--l2{-webkit-line-clamp:2}.van-multi-ellipsis--l2,.van-multi-ellipsis--l3{display:-webkit-box;overflow:hidden;text-overflow:ellipsis;-webkit-box-orient:vertical}.van-multi-ellipsis--l3{-webkit-line-clamp:3}.van-clearfix:after{display:table;clear:both;content:""}.van-hairline,.van-hairline--bottom,.van-hairline--left,.van-hairline--right,.van-hairline--surround,.van-hairline--top,.van-hairline--top-bottom{position:relative}.van-hairline--bottom:after,.van-hairline--left:after,.van-hairline--right:after,.van-hairline--surround:after,.van-hairline--top-bottom:after,.van-hairline--top:after,.van-hairline:after{position:absolute;box-sizing:border-box;-webkit-transform-origin:center;transform-origin:center;content:" ";pointer-events:none;top:-50%;right:-50%;bottom:-50%;left:-50%;border:0 solid #eee;-webkit-transform:scale(.5);transform:scale(.5)}.van-hairline--top:after{border-top-width:1px}.van-hairline--left:after{border-left-width:1px}.van-hairline--right:after{border-right-width:1px}.van-hairline--bottom:after{border-bottom-width:1px}.van-hairline--top-bottom:after{border-width:1px 0}.van-hairline--surround:after{border-width:1px}.van-notify{text-align:center;word-wrap:break-word;padding:6px 15px;padding:var(--notify-padding,6px 15px);font-size:14px;font-size:var(--notify-font-size,14px);line-height:20px;line-height:var(--notify-line-height,20px)}.van-notify__container{position:fixed;top:0;box-sizing:border-box;width:100%}.van-notify--primary{background-color:#1989fa;background-color:var(--notify-primary-background-color,#1989fa)}.van-notify--success{background-color:#07c160;background-color:var(--notify-success-background-color,#07c160)}.van-notify--danger{background-color:#ee0a24;background-color:var(--notify-danger-background-color,#ee0a24)}.van-notify--warning{background-color:#ff976a;background-color:var(--notify-warning-background-color,#ff976a)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**index.wxss**/
+.swiper-container {
+  position: relative;
+}
+.swiper-container .swiper {
+  height: 400rpx;
+}
+.swiper-container .swiper .img {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .dots {
+  position: absolute;
+  right: 40rpx;
+  bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.swiper-container .dots .dot {
+  margin: 0 10rpx;
+  width: 28rpx;
+  height: 28rpx;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+  font: 300 18rpx/28rpx "microsoft yahei";
+  text-align: center;
+}
+.swiper-container .dots .dot.active {
+  background: #f80;
+  color: #fff;
+}
+.city {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.scenic {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.btn {
+  /* 渐变色 */
+  background: -webkit-linear-gradient(left, #f7b733, #fc4a1a);
+  background: linear-gradient(to right, #f7b733, #fc4a1a);
+  padding: 0;
+  border-radius: 30rpx;
+  font-weight: 1;
+  font-size: 32rpx;
+  line-height: 1.8;
+}
+.division{
+  height:60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.bar{
+  height: 60rpx;
+  width: 5rpx;
+  background-color: orange;
+  margin-left:120rpx ;
+  border-radius: 30rpx;
+}
+.barText{
+ margin-left: 60rpx;
+}
+.nod {
+  position: relative;
+  height: 180rpx;
+  width: 686rpx;
+}
+.noe {
+  position: absolute;
+  width: 378rpx;
+  height: 31rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30rpx;
+  left: 34rpx;
+}
+.nof {
+  position: absolute;
+  width: 515rpx;
+  height: 84rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+  line-height: 30rpx;
+  top: 54rpx;
+  left: 34rpx;
+  display: -webkit-box;
+  /*设置为弹性盒子*/
+  -webkit-line-clamp: 3;
+  /*最多显示5行*/
+  overflow: hidden;
+  /*超出隐藏*/
+  text-overflow: ellipsis;
+  /*超出显示为省略号*/
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  /*强制英文单词自动换行*/
+}
+.nog {
+
+  height: 240rpx;
+  width: 100%;
+}
+.noh {
+  position: absolute;
+  height: 32rpx;
+  width: 32rpx;
+}
+.noi {
+  position: absolute;
+  width: 130rpx;
+  height: 30rpx;
+  font-size: 23rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30rpx;
+  text-align: center;
+}
+
+/* 分割线
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+

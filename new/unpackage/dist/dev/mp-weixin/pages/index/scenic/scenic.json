@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "vantab": "/wxcomponents/vant/tab/index",
+    "vantabs": "/wxcomponents/vant/tabs/index",
+    "vandivider": "/wxcomponents/vant/divider/index",
+    "vandropdown-menu": "/wxcomponents/vant/dropdown-menu/index",
+    "vandropdown-item": "/wxcomponents/vant/dropdown-item/index",
+    "vanfield": "/wxcomponents/vant/field/index"
+  }
+}

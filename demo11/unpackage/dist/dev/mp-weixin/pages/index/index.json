@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "zai-lattice": "/components/zai-lattice/index"
+  }
+}

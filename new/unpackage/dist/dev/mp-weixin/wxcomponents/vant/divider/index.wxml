@@ -1,0 +1,2 @@
+<wxs src="../wxs/utils.wxs" module="utils"></wxs>
+<uni-shadow-root class="vant-divider-index" vue-id="64f1594e-1" bind:__l="__l" vue-slots="{{['default']}}"><view class="{{['custom-class '+utils.bem('divider',[{dashed,hairline},contentPosition])]}}" style="{{((borderColor?'border-color: '+borderColor+';':'')+(textColor?'color: '+textColor+';':'')+' '+(fontSize?'font-size: '+fontSize+'px;':'')+' '+customStyle)}}"><slot></slot></view></uni-shadow-root>

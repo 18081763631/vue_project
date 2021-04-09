@@ -1,0 +1,2 @@
+<wxs src="./subutil.wxs" module="tools"></wxs>
+<view style="{{('display: flex; padding-left:'+left+'rpx;padding-right:'+right+'rpx;width:'+width+'rpx;color:'+color+'; font-weight:'+font_weight+'; font-size: '+font_size+'rpx; letter-spacing:'+letter_spacing+'rpx;')}}"><text>{{tools.sub(font,fontnum)}}</text></view>
